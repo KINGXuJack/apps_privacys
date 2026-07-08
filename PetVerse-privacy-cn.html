@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PetVerse 隐私政策</title>
+<style>
+  :root{--bg:#faf7f2;--card:#fff;--text:#2c2621;--muted:#6b6157;--accent:#ff8a5b;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.8;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 22px 80px;}
+  header{text-align:center;margin-bottom:32px;}
+  h1{font-size:30px;margin:0 0 6px;}
+  .sub{color:var(--muted);font-size:14px;}
+  .card{background:var(--card);border-radius:18px;padding:26px 28px;box-shadow:0 6px 24px rgba(0,0,0,.05);margin-bottom:22px;}
+  h2{font-size:20px;margin:0 0 12px;color:var(--accent);}
+  ul{padding-left:20px;}
+  a{color:var(--accent);}
+  .foot{text-align:center;color:var(--muted);font-size:13px;margin-top:24px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>PetVerse 隐私政策</h1>
+    <div class="sub">最后更新：2026-07-08 · 开发者：PetVerse Team</div>
+  </header>
+
+  <div class="card">
+    <h2>1. 摘要</h2>
+    <p>PetVerse 是一款完全本地运行的虚拟养宠游戏：</p>
+    <ul>
+      <li>我们<strong>不运营</strong>任何存储用户数据的后端服务器。</li>
+      <li>我们<strong>不要求</strong>账号、登录、邮箱或手机号。</li>
+      <li>我们<strong>不收集、不上传、不出售、不共享、不追踪</strong>任何个人信息。</li>
+      <li>我们<strong>不集成</strong>任何第三方分析、广告、崩溃上报或营销 SDK。</li>
+      <li>我们<strong>不使用</strong> Cookie、IDFA 或任何广告标识符。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>2. 存储在设备上的数据</h2>
+    <p>以下数据仅通过 Apple 官方 SwiftData 本地数据库和 UserDefaults <strong>保存在您的设备上</strong>：</p>
+    <ul>
+      <li>宠物信息：名字、物种、外形、等级、心情、饥饿、清洁、精力、羁绊值、成就、心愿、探险进度、金币余额、相册、家园装饰等。</li>
+      <li>使用偏好：音效、触感反馈、语言、新手引导状态。</li>
+      <li>您从相册选择或用相机拍摄的照片（仅用于设置您本人或宠物的头像）：仅在本机存储，不会上传。</li>
+    </ul>
+    <p>如需清除，卸载 App 即可，iOS 会一并删除本地数据。</p>
+  </div>
+
+  <div class="card">
+    <h2>3. 可选 AI 图像生成（默认关闭）</h2>
+    <p>PetVerse 提供一项<strong>可选</strong>功能：用阿里云 DashScope 生成风格化的 3D 形象或杂交后代形象。</p>
+    <ul>
+      <li>该功能<strong>默认关闭</strong>，仅当您在"设置 → AI 图像"中粘贴<strong>自己的 API Key</strong> 后才启用。</li>
+      <li>点击"生成"时，仅将文本 prompt（杂交场景还包含您已选中的亲本图片）通过 HTTPS 发送到 dashscope.aliyuncs.com，<strong>使用您自己的 API Key</strong> 调用。生成的图片会保存到本地。</li>
+      <li>PetVerse 本身<strong>不接收、不存储、不观察</strong>这些请求。</li>
+      <li>您随时可在设置中删除 API Key 停止使用该功能。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4. 相机与相册权限</h2>
+    <p>App 只在您点击对应功能时才请求：</p>
+    <ul>
+      <li><strong>相册访问</strong>——选取图片作为个人或宠物头像。</li>
+      <li><strong>相机访问</strong>——拍照作为个人或宠物头像。</li>
+    </ul>
+    <p>即使拒绝，App 其它部分照常使用。</p>
+  </div>
+
+  <div class="card">
+    <h2>5. 儿童隐私</h2>
+    <p>PetVerse 不会主动收集任何人（含 13 周岁以下未成年人）的个人信息。所有数据均不离开设备，适合家庭、儿童放心使用。</p>
+  </div>
+
+  <div class="card">
+    <h2>6. 变更</h2>
+    <p>如未来有修订，我们会更新页顶"最后更新"日期，并在 App Store Connect 关联的相同链接下发布新版本。</p>
+  </div>
+
+  <div class="card">
+    <h2>7. 联系我们</h2>
+    <p>如有疑问：<a href="mailto:support@petverse.app">support@petverse.app</a></p>
+  </div>
+
+  <div class="foot">© 2026 PetVerse Team · <a href="./PetVerse-privacy.html">English</a></div>
+</div>
+</body>
+</html>
